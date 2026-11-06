@@ -141,13 +141,35 @@ using namespace std;
 //#include <iostream>
 //using namespace std;
 
-int main() {
-    int a = 3, b = 4;
+// int main() {
+//     int a = 3, b = 4;
 
-    // Conditional Operator
-    int result = (a < b) ? b : a;
-    cout << "The greatest number "
-          "is " << result;
+//     // Conditional Operator
+//     int result = (a < b) ? b : a;
+//     cout << "The greatest number "
+//           "is " << result;
 
-    return 0;
-}
+//     return 0;
+// }
+
+//Miscellaneous Operators
+
+//sizeof (char);
+//sizeof (var_name);   //sizeof Operator
+
+//comma Operator(,)
+//int n = (m+1, m-2, m+5);
+//int a, b, c;
+
+//Addressof Operator(&)
+//&var_name;
+
+//Dot Operator(.)
+//obj . member;
+
+//Array Operator
+//sptr -> member;
+
+//Casting operator
+//(float)x
+//static_cast<float>(x)
